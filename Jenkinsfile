@@ -6,10 +6,6 @@ node("android"){
     checkout scm
   }
 
-  stage ("Prepare"){
-    println('Debug Build - Using default developer signing key')
-  }
-
   stage("Build"){
     println('Debug Build - Using default developer signing key')
   }
